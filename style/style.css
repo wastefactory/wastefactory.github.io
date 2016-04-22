@@ -1,0 +1,169 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css);
+
+body{
+	background-color: #FFEBCD !important;
+	/*background: url(../images/img-noise-50x50.png);*/
+}
+
+h1{
+	font-weight: normal;
+}
+
+a.link{
+	color: #4CAF50 !important;
+}
+
+p{
+	padding: 10px;
+}
+
+i{
+	font-size:30px !important;
+}
+
+code{
+	background-color: #FFF8DC !important;
+}
+
+.logo-font{
+	font-family: 'Pacifico', cursive;
+}
+
+.theme{
+	color: #4CAF50 !important;
+}
+
+.page-title{
+	padding: 20px;
+	border-bottom: 1px solid #F5DEB3;
+	box-shadow: 0 1px 1px #FFF8DC;
+}
+
+.home-page .description{
+	margin-top: 20px;
+}
+
+.header{
+	position:fixed;
+	top:0px;
+	margin:auto;
+	z-index:100000;
+	width:100%;
+}
+
+.nav-bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav-bar li{
+	float: left;
+}
+
+.nav-bar li.logo{
+	margin:0px 20px;
+	padding-bottom:3px;
+}
+
+.nav-bar li.logo a{
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+}
+
+.nav-bar li a{
+    display: block;
+    color: #aaa;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    line-height: 35px;
+}
+
+.nav-bar li a:hover:not(.active) {
+    color: #ccc;
+}
+
+.nav-bar .active {
+    background-color: #444;
+    border-bottom: 3px solid #4CAF50;
+}
+
+.nav-bar li.author{
+    position: absolute;
+    top: 3px;
+    right: 10px;
+}
+
+.nav-bar li.author a{
+    color: #666;
+}
+
+.nav-bar li.author a:hover{
+    color: #777;
+}
+
+#content{
+	text-align: center;
+	margin-top:100px;
+	padding: 0px 350px 50px;
+	width: 100%;
+}
+
+.search-bar{
+	margin: 20px;
+	text-align: center;
+}
+
+.search-bar input{
+	width: 75%;
+}
+
+.video-item img{
+	max-width: 64px;
+}
+
+.list-group-item{
+	cursor: pointer;
+}
+
+.list-group-item:hover{
+	background-color: #f1f1f1;
+}
+
+.details{
+	margin-top: 20px;
+}
+
+.details .title{
+	font-size:30px;
+}
+
+.setup-code{
+	text-align: left;
+	padding: 20px;
+	margin-left:auto;
+}
+
+.setup-code code{
+	display: block;
+}
+
+.setup-code .indent{
+	margin-left: 30px;
+}
+
+.setup-code .indentTwo{
+	margin-left: 60px;
+}
+
+.setup-code .indentThree{
+	margin-left: 90px;
+}
+
+.setup-code .comment{
+	color: #aaa;
+}
