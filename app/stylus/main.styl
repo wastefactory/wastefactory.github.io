@@ -1,0 +1,93 @@
+@import 'normalize'
+@import 'helper'
+
+/* variables */
+$lightgrey = #999
+$linkColor = #555
+$grey = #333
+$black = #222
+$white = #f7f7f7
+$bg = #f1f1f1
+
+html
+button
+input
+select
+textarea
+  color: $black
+
+a
+a:visited
+  color: $linkColor
+  text-decoration: none
+
+a:hover
+  color: lighten($linkColor,10%)
+
+body
+  color: $black
+  font-size: 1em
+  line-height: 1.5
+  background-color: $bg
+
+header
+  color:$white
+  padding: 1em
+
+  nav
+    float:right
+    user-select:none
+
+  .nav-item
+    float:left
+    margin-left:.5em
+
+    a.active
+      text-decoration:underline
+
+.content
+  padding: 1em
+
+
+/* Customized */
+.logo
+  font-size: 30px
+
+  .w
+    color: #e0b020
+
+  .a
+    color: #50aa4d
+
+  .s
+    color: #4177a9
+
+  .t
+    color: #d16a6a
+
+  .e
+    color: #c554da
+
+.logo-font, .theme-font
+	font-family: 'Dosis', sans-serif
+
+.theme
+  color: $grey
+
+.banner
+  position: absolute
+  left: 30%
+  display: block
+  margin: 100px -200px
+  width: 900px
+  height: 300px
+  text-align: center
+  font-weight:200
+  font-size: 70px
+  color: $white
+  background: url(/images/bg_1.png)
+  background-size: 100%
+  background-repeat: no-repeat
+
+.coder
+  margin-left: 300px
